@@ -8,7 +8,9 @@ public class RomanNumeralTest {
 
     @Test
     public void singleNumber() {
+        //Khởi tạo class muốn kiểm tra
         RomanNumeral roman = new RomanNumeral();
+        //Gọi các phương thức - method mà chúng ta muốn kiểm tra
         int result = roman.convert("I");
         Assertions.assertEquals(1, result);
     }
